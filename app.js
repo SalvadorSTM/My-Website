@@ -12,8 +12,6 @@ app.use(express.static(__dirname, {
   dotfiles: 'allow'
 }));
 
-
-httpsPort = "3001";
 httpPort = "3000";
 
 // Start in http mode
