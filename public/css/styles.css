@@ -16,6 +16,7 @@ body {
   margin: 0;
   text-align: center;
   color: #204051;
+  overflow-x: hidden;
 }
 
 p {
@@ -264,4 +265,36 @@ hr {
   display: block;
   margin: 25px auto 5px;
   height: 50px
+}
+
+
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #4d9292;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3b7070;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #2b5555;
+}
+::-webkit-scrollbar-track {
+  background: #76cfcf;
+  /* border: 2px solid #000000; */
+}
+::-webkit-scrollbar-track:hover {
+  background: #78b9be;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
 }
